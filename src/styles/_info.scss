@@ -1,0 +1,18 @@
+.close-button-container {
+    position: absolute;
+    right: 0;
+    z-index: 5;
+  
+    .info-close-button {
+      color: $dark-blue;
+      background-color: transparent;
+    }
+  }
+  
+  .info-modal-content {
+    padding: 2.5rem;
+  
+    &-item {
+      margin-bottom: 1.875rem;
+    }
+  }

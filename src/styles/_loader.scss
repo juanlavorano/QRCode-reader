@@ -1,0 +1,15 @@
+// Loader
+.loader {
+  .fa-cog {
+    color: $dark-blue;
+    position: fixed;
+    top: -100%;
+    right: -100%;
+    left: -100%;
+    bottom: -100%;
+    margin: auto;
+    z-index: 0;
+    font-size: 20px;
+    animation: rotate-s-loader 3s linear infinite;
+  }
+}

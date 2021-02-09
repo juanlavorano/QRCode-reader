@@ -1,0 +1,68 @@
+.title-container {
+    display: flex;
+    border-bottom: 1px solid $gray;
+    height: 100%;
+    margin: 1.875rem 6.25rem;
+    align-items: center;
+    padding: 0.3125rem;
+    justify-content: space-between;
+  
+    &-button {
+      padding: 0.625rem;
+      background-color: $light-blue;
+      color: $white;
+    }
+  }
+  
+  .item-display {
+    margin: 20px 100px;
+  }
+  
+  .invoice {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3125rem;
+    transition: all 300ms ease-in-out;
+  
+    &:hover {
+      transform: scale(1.02);
+    }
+  
+    &-specs {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      margin: 1rem 0rem;
+    }
+  
+    &-spec {
+      border-left: 1px solid $gray;
+      padding-left: 1rem;
+      width: 25%;
+    }
+  
+    &-btn {
+      padding: 4px 12px;
+      background-color: $light-blue;
+      color: $white;
+    }
+  }
+  .subs-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3125rem;
+  
+    .sub {
+      width: 25%;
+      justify-self: flex-start;
+    }
+  
+    .sub-btn {
+      visibility: hidden;
+    }
+  }
+  

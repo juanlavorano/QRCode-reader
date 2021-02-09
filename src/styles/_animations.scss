@@ -1,0 +1,38 @@
+// Fade in
+@keyframes fadeIn {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+// Loader animation
+@keyframes rotate-s-loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// Logo animation
+@keyframes shake {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(25deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}
